@@ -1,0 +1,92 @@
+body {
+  background-image: url("../images/seigaiha.jpg");
+}
+i {
+  font-style: normal;
+}
+img {
+  display: block;
+}
+.wrap {
+  padding-bottom: 100px;
+}
+.banner-img,
+.why-img,
+.zifei-img {
+  width: 100%;
+}
+.simcard {
+  width: 100%;
+}
+.chose-simcard {
+  position: relative;
+  width: 100%;
+}
+.sim18-btn,
+.sim48-btn {
+  position: absolute;
+  top: 35.76732673%;
+  width: 10.41666667%;
+}
+.sim18-btn {
+  left: 12.03125%;
+}
+.sim48-btn {
+  right: 34.84375%;
+}
+.sim18-btn img,
+.sim48-btn img {
+  width: 100%;
+}
+.tip-title-img {
+  width: 100%;
+}
+.tip-content {
+  position: relative;
+  width: 78.125%;
+  margin: 0 auto;
+  background-color: #e9f6f8;
+  padding: 4.66666667%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-shadow: 0 5px 15px #62c2c1;
+}
+.tip-content p {
+  font-size: 1.1em;
+  color: #333333;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.tip-content p i.num {
+  float: left;
+}
+.tip-content p span.txt {
+  float: left;
+  width: 97.01492537%;
+  margin-left: 5px;
+}
+.tip-content:before {
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  display: block;
+  content: '';
+  width: 80px;
+  height: 80px;
+  background: url("../images/ye.png") no-repeat center;
+  background-size: auto 100%;
+  z-index: 100;
+}
+.tip-content:after {
+  position: absolute;
+  bottom: 25px;
+  right: 45px;
+  display: block;
+  content: '';
+  width: 70px;
+  height: 70px;
+  background: url("../images/ta.png") no-repeat center;
+  background-size: auto 100%;
+  z-index: 100;
+}
